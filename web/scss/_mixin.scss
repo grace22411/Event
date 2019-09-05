@@ -1,0 +1,83 @@
+@mixin body{
+	background-color:#f7f7f7;
+	font-family: 'poppins', sans-serif;
+}
+
+@mixin header{
+	background-color:$theme-grey;
+		box-shadow: none;
+		height:90px;
+		.nav-wrapper{
+			background-color:$theme-grey;
+			box-shadow: none;
+			height:90px;
+			.logo{
+				width:20%;
+				padding:20px  50px;
+				float:left;
+				h1{
+					margin-top: -16px;
+					font-weight: 700;
+					.first{
+						color:$theme-yellow;
+						font-size:40px;
+					}
+					.second{
+						color:#fff;
+						font-size:15px;
+					}
+				}
+			}
+			.navbar{
+				margin-top: 10px;
+				margin-right: 30px;
+				li{
+					font-size:20px;
+					font-weight: 500;
+					color:$theme-yellow;
+					transition: .2s ease-in;
+				}
+				li:hover{
+					color:$theme-yellow;
+				}
+				button{
+					background-color: transparent;
+					border:2px solid #fff;
+					border-radius:3px;
+					margin-right: 40px;
+					text-transform: lowercase !important;
+				}
+			}
+			.side-nav{
+				margin-top: 50px;
+				margin-right: 40px;
+			}
+			.button-collapse{
+				margin-top: 20px;
+				margin-right: 30px;
+			}
+		}
+		@media screen and (max-width: 600px){
+			.nav-wrapper{
+				.logo{
+				width:20%;
+				padding:20px  20px;
+				float:left;
+				h1{
+					font-size:30px;
+					font-weight:bold;
+					margin-top: 0;
+					.first{
+						color:#f0f0f0;
+					}
+					.second{
+						color:$theme-yellow;
+					}
+				}
+			}
+			}
+	}
+	@media screen and (min-width:600px) and (max-width:960px){
+		margin-right: 30px;
+	}
+}

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Login/Register</title>
+	<!--Import Google Icon Font-->
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+     <link type="text/css" rel="stylesheet" href="assets/css/materialize/css/materialize.min.css"  media="screen,projection"/> 
+     <script src="js/jquery-1.11.1.min.js"></script>
+     <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+	  <script type="text/javascript" src="js/script.js"></script>
+      <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<link rel="stylesheet" type="text/css" href="css/style2.css"/>
+</head>
+<body>
+	<nav>
+			<div class="nav-wrapper">
+			  <div class="logo"><h1><span class="first">EVENT</span><span class="second">collection</span></h1></div>
+			  
+			  <a href="#" data-activates="mobile-demo" class="right button-collapse"><i class="material-icons">menu</i></a>
+			  <ul class="navbar right hide-on-med-and-down">
+				<li><a href="index.html">HOME</a></li>
+
+
+			  </ul>
+			  
+			  <ul class="side-nav" id="mobile-demo">
+				<!--<li id="about"><a href="#">SERVICES</a></li>
+				<li id="service"><a href="#">VENDORS</a></li>
+				<li id="testimonial"><a href="#">GALLERY</a></li>
+				<li><a href="login.html">CONTACT</a></li>
+-->
+			  </ul>
+			</div>
+  		</nav>	
+	<div class="login-page">
+    <div id="tabs" class="col s12 m7 ">
+    <h2>Log In</h2>
+    
+    <div class="row">
+		<div class="input-field col s12">
+	   <label for="email">Email</label>
+		  <input placeholder="@example.com" id="email" type="email" class="validate">
+		</div>
+	</div>
+	  <div class="row">
+		<div class="input-field col s12">
+		 <label for="password">Password</label>
+		  <input placeholder="At least 5 characters" id="password" type="password" class="validate">
+		</div>
+	  </div>
+	  <p><a href="ResetPassword.html">Forgot Password?</a></p>
+	<button>LogIn</button>
+	<div class="action">
+		<button class="join">Join Us</button>
+		<p>Not a member yet?</p>
+	</div>
+	  </div>
+	
+		<div id="tabs-2" class="col s12">
+	  	<h2>Sign Up</h2>
+			  <div class="row">
+				<div class="input-field col s12">
+				  <input placeholder="Placeholder" id="full_name" type="text" class="validate">
+				  <label for="full_name">Full Name</label>
+				</div>
+			</div>
+		   <div class="row">
+				<div class="input-field col s12">
+				  <input placeholder="@example.com" id="email" type="email" class="validate">
+				  <label for="email">Email</label>
+				</div>
+			</div>
+		  <div class="row">
+				<div class="input-field col s12">
+				  <input placeholder="+234813333333" id="number" type="number" class="validate">
+				  <label for="number">Phone Number</label>
+				</div>
+			  </div>
+			  <div class="row forme">
+				  <label for="number">User Type</label>
+			  		<form action="#">
+				  	<p>
+					  <input class="with-gap" name="group1" type="radio" id="test1" />
+					  <label for="test1">Member</label>
+					</p>
+					<p>
+					  <input class="with-gap" name="group1" type="radio" id="test2" />
+					  <label for="test2">Event Vendor</label>
+					</p>
+					</form>
+				</div>
+			 
+			  <!-- div to show on click-->
+			  <div class="row hide1">
+				<div class="input-field col s12">
+				  <input placeholder="e.g:ijapo estate" id="Address" type="text" class="validate">
+				  <label for="Address">Address</label>
+				</div>
+				<div class="input-field col s12">
+				  <input placeholder="Ondo" id="state" type="text" class="validate">
+				  <label for="state">State</label>
+				</div>
+				<div class="input-field col s12">
+				  <input placeholder="Nigeria" id="country" type="text" class="validate">
+				  <label for="country">Country</label>
+				</div>
+			</div>
+			
+			<div class="row hide2">
+				<div class="input-field col s12">
+				  <input placeholder="e.g: phptographer, cook etc" id="Occupation" type="text" class="validate">
+				  <label for="Occupation">Occupation</label>
+				</div>
+				<div class="input-field col s12">
+				  <input placeholder="e.g:ijapo estate" id="Address" type="text" class="validate">
+				  <label for="Address">Address</label>
+				</div>
+				<div class="input-field col s12">
+				  <input placeholder="Ondo" id="state" type="text" class="validate">
+				  <label for="state">State</label>
+				</div>
+				<div class="input-field col s12">
+				  <input placeholder="Nigeria" id="country" type="text" class="validate">
+				  <label for="country">Country</label>
+				</div>
+				 <div class="input-field col s12">
+				  <textarea placeholder="Tell us about yourself"  id="textarea1" class="materialize-textarea"></textarea>
+				  <label for="textarea1">About You</label>
+				</div>
+			</div>
+		  
+			  <div class="row">
+				<div class="input-field col s12">
+				  <input placeholder="e.g:ayo8867" id="user_name" type="text" class="validate">
+				  <label for="user_name">UserName</label>
+				</div>
+			</div>
+			  <div class="row">
+				<div class="input-field col s12">
+				  <input placeholder="At least 5 characters" id="password" type="password" class="validate">
+				  <label for="password">Password</label>
+				</div>
+			  </div>
+			  <div class="row">
+				<div class="input-field col s12">
+				  <input placeholder="At least 5 characterd" id="password" type="password" class="validate">
+				  <label for="password">Confirm Password</label>
+				</div>
+			  </div>
+			<button>Sign Up</button>
+			<div class="action">
+				<button class="join2">Sign In</button>
+				<p>Already a member?</p>
+			</div>
+	  </div>
+	</div>
+    <footer>
+		<p>© 2018 <a href="index.html">EVENT.</a> ALL RIGHT RESERVED</p>
+    </footer>
+     
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+      <script type="text/javascript" src="assets/css/materialize/js/materialize.min.js"></script>
+      <script>
+		  $( function() {
+			 $('ul.tabs').tabs('select_tab', 'tab_id');
+		  } );
+  </script>
+</body>
+</html>
